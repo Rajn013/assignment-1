@@ -1,0 +1,89 @@
+que 1. In the below elements which of them are values or an expression? eg:- values can be
+integer or string and expressions will be mathematical operators.
+
+ans . (This is an expression representing multiplication)
+      'hello' (This is a value representing a string)
+      -87.8 (This is a value representing a floating point number)
+      (This is an expression representing negation)
+      / (This is an expression representing division)
+      +(This is an expression representing addition )
+      6 (This is a value representing an integer)
+
+que 2. What is the difference between string and variable?
+
+ans . A string is a type of data used to represent textual information, while a variable is a container that can hold any type of data, including strings. A string is a specific type of data, while a variable is a storage location that can hold different types of data.
+
+que 3. Describe three different data types
+
+ans  the three different data types are as follow:-
+
+     1. Integer (int): An integer is a whole number with no decimal point. In Python, integers are used to represent numeric values without a fractional component. For example, 3, 20, -15 are all integers.
+
+     2. String (str): A string is a sequence of characters enclosed in single or double quotation marks. Strings are used to represent textual data. For example, "hello", "world", and "123" are all strings.
+     
+     3.a tuple is a collection of ordered, immutable elements enclosed in parentheses. Tuples are similar to lists, but unlike lists, tuples cannot be modified once they are created. This means that you cannot add, remove or modify elements in a tuple.
+
+que 4.What is an expression made up of? What do all expressions do?
+
+ans . Expressions can be made up of literals, such as numbers or strings, variables, which hold values that can be changed, and operators, which perform various operations on values and variables. For example, the expression 2 + 3 is made up of the literal values 2 and 3, and the addition operator +.  expressions are a fundamental concept in programming, and they play a crucial role in manipulating data and controlling program flow. 
+
+que 5.This assignment statements, like spam = 10. What is the difference between an  expression and a statement?
+
+
+ans.  An assignment statement, such as spam = 10, is an example of a statement. This statement assigns the value 10 to the variable spam. the main difference between expressions and statements is that expressions have a value, while statements do not. Expressions can be part of statements, but statements cannot be part of expressions.
+
+que 6. After running the following code, what does the variable bacon contain?
+          bacon = 22
+          bacon + 1
+
+ans. The variable bacon contains the value 22.
+
+    bacon = 22
+    bacon + 1
+
+
+    In the second line of the code, bacon + 1, the expression bacon + 1 evaluates to 23, but this value is not assigned to any variable. Therefore, the variable bacon still contains its original value, which is 22.
+     
+    bacon = bacon + 1
+
+    If you want to update the value of bacon to the result of the expression, you can use an assignment statement .
+
+
+que 7. What should the values of the following two terms be?
+        'spam' + 'spamspam' = 'spamspamspam' 
+        'spam' * 3 = 'spamspamspam'
+
+       
+ans.  In the first expression, 'spam' + 'spamspam', the + operator concatenates the two strings to form a single string 'spamspamspam'.
+
+In the second expression, 'spam' * 3, the * operator repeats the string 'spam' three times to form the string 'spamspamspam'.
+
+que 8. Why is eggs a valid variable name while 100 is invalid?
+
+ans. They can only contain letters, numbers, and underscores.
+They cannot start with a number.
+They cannot be the same as a Python keyword or reserved word.
+Based on these rules, eggs is a valid variable name because it only contains letters, and it does not start with a number or conflict with a Python keyword.
+
+On the other hand, 100 is not a valid variable name because it starts with a number. Variable names cannot start with a number in Python.
+
+However, you can include numbers in variable names as long as they do not come first in the name. For example, eggs_100 would be a valid variable name in Python, because it contains only letters, numbers, and underscores, and does not start with a number.
+
+que 9. What three functions can be used to get the integer, floating-point number, or string  version of a value?
+
+ans .int(): This function can be used to convert a value to an integer data type. For example, int('10') would convert the string '10' to an integer value of 10.
+
+float(): This function can be used to convert a value to a floating-point data type. For example, float('3.14') would convert the string '3.14' to a float value of 3.14.
+
+str(): This function can be used to convert a value to a string data type. For example, str(42) would convert the integer value 42 to a string value of '42'.
+
+que 10. why does this epression cause an error ? how can you fix it ? 'i have eaten ' +99+'burritos'.
+
+ans .  The expression 'I have eaten ' + 99 + ' burritos.' causes a TypeError because you are trying to concatenate a string and an integer value without converting the integer value to a string.
+
+To fix this error, you need to convert the integer value 99 to a string before concatenating it with the other strings. One way to do this is by using the str() function to convert 99 to the string '99':
+
+'I have eaten ' + str(99) + ' burritos.'
+
+
+
